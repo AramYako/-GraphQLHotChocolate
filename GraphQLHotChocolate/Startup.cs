@@ -55,6 +55,7 @@ namespace GraphQLHotChocolate
                 app.UseDeveloperExceptionPage();
             }
 
+            
             app.UseWebSockets();
 
             app.UseRouting();
